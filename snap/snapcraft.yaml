@@ -1,0 +1,38 @@
+name: casepath
+base: core24
+version: '0.2.5'
+summary: Personal case tracking and action planning
+description: |
+  CasePath is a Qt-based personal case-tracking and action-planning
+  application for managing multi-step real-world administrative processes.
+
+grade: stable
+confinement: strict
+
+apps:
+  casepath:
+    command: usr/bin/CasePath
+    extensions:
+      - kde-neon-6
+    plugs:
+      - home
+      - network
+      - network-bind
+      - desktop
+      - desktop-legacy
+      - wayland
+      - x11
+      - opengl
+
+parts:
+  casepath:
+    plugin: cmake
+    source: .
+    cmake-generator: Ninja
+    cmake-parameters:
+      - -DCMAKE_INSTALL_PREFIX=/usr
+    build-packages:
+      - build-essential
+      - cmake
+      - ninja-build
+      - qt6-base-dev

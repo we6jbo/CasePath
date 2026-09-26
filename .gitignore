@@ -13,3 +13,4 @@ casepath_chat_url.txt
 *.key
 *private_key*
 CMakeLists.txt.before-flathub-metadata-*
+*.snap
