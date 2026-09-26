@@ -628,7 +628,7 @@ void MainWindow::buildUi()
         "<h2>Secure Papers & Travel</h2>"
         "<p><b>Best practice:</b> confidential identity/court papers should travel with you rather than remain in the Subaru.</p>"
         "<p>If temporary vehicle storage is unavoidable, put copies in a locked, opaque, water/fire-resistant document pouch and secure it out of sight in the cargo area <i>before</i> arriving. Do not leave identity documents visible, in an unlocked glove box, or in a bag that advertises electronics or valuables.</p>"
-        "<p><b>Work departure point:</b> 4510 Landis Street, San Diego, CA 92105.</p>"
+        "<p><b>Work departure point:</b> configured locally and not included in the public source repository.</p>"
         "<p><b>Court office constraint:</b> San Diego Superior Court Adoption Office hours are Monday-Friday, 8:30 AM-4:00 PM. CasePath does not duplicate your availability calendar; use Task Orchestrator to determine when this task fits your available time. Confirm current office hours and traffic before departure.</p>");
     t3->addWidget(secure);
     const QString weekday = contextWeekday();

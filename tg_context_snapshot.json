@@ -1,0 +1,16 @@
+{
+  "project_id": "casepath",
+  "project_name": "CasePath",
+  "codes": ["TG315902","TG708346","TG264819","TG150984","TG594126","TG918273","TG540918"],
+  "references": [
+    {"name":"Noma Vade Smith","code":"TG315902","details":"B:19 Mar 1927 San Diego, California D:20 Dec 1991 San Diego County, California, USA"},
+    {"name":"Lester McCabe","code":"TG708346","details":"B:6 May 1926 Butler, Pennsylvania, USA D:26 May 1985 Kittanning, Armstrong, Pennsylvania, USA"},
+    {"name":"Mom","code":"TG264819","details":"Private relationship label preserved literally."},
+    {"name":"Grandma","code":"TG150984","details":"Private relationship label preserved literally."},
+    {"name":"William Thorpe","code":"TG594126"},
+    {"name":"Sarah McAvoy","code":"TG918273"},
+    {"name":"Rosamund Sloan","code":"TG540918"}
+  ],
+  "portable": true,
+  "registry_optional": true
+}

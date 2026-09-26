@@ -5,3 +5,10 @@ CMakeFiles/
 CMakeCache.txt
 *.o
 *.user
+casepath_chat_url.txt
+.qtcreator/
+*.pem
+*.p12
+*.pfx
+*.key
+*private_key*
