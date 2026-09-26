@@ -22,3 +22,11 @@ target_link_libraries(CasePath PRIVATE Qt6::Widgets)
 install(TARGETS CasePath
     RUNTIME DESTINATION bin
 )
+
+# Flathub desktop integration
+install(FILES org.oneal.CasePath.desktop
+        DESTINATION share/applications)
+install(FILES org.oneal.CasePath.metainfo.xml
+        DESTINATION share/metainfo)
+install(FILES org.oneal.CasePath.svg
+        DESTINATION share/icons/hicolor/scalable/apps)

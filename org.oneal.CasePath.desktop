@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=CasePath
+Comment=Practice and learn fractions
+Exec=CasePath
+Icon=org.oneal.CasePath
+Terminal=false
+Categories=Education;

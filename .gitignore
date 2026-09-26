@@ -12,3 +12,4 @@ casepath_chat_url.txt
 *.pfx
 *.key
 *private_key*
+CMakeLists.txt.before-flathub-metadata-*
